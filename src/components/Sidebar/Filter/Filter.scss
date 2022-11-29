@@ -1,0 +1,38 @@
+.filter {
+    h6 {
+        font-size: 14px;
+    }
+    .min-max {
+        label {
+            display: block;
+            font-size: 14px;
+            margin-top: 20px;
+            display: flex;
+            input {
+                margin-left: 5px;
+            }
+        }
+    }
+    .filter-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding-left: 10px;
+        button {
+            text-transform: uppercase;
+            background-color: transparent;
+            border: 2px solid red;
+            font-family: inherit;
+            margin-top: 15px;
+            padding: 5px;
+            font-size: 12px;
+        }
+        button:focus {
+            outline: none;
+        }
+        button:hover {
+            color: white;
+            background-color: red;
+        }
+    }
+}

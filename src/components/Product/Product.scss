@@ -1,0 +1,41 @@
+.product-img-container {
+    padding: 50px;
+    img {
+        width: 300px;
+    }
+}
+
+.product-detail {
+    padding: 50px;
+    text-align: center;
+}
+
+.fa-star {
+    color: yellow;
+}
+
+.price {
+    color: rgb(255, 10, 8);
+    font-weight: 600;
+}
+
+.add-to-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+        font-family: inherit;
+        background-color: rgb(255, 10, 8);
+        color: white;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin: 20px 0;
+        cursor: pointer;
+    }
+    button:active {
+        transform: scale(0.98);
+    }
+    input {
+        width: 50px;
+    }
+}

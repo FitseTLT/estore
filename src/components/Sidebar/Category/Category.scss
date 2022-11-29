@@ -1,0 +1,15 @@
+.category {
+    h3 {
+        font-size: 16px;
+        padding-left: 10px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    label {
+        font-size: 12px;
+        display: flex;
+        input {
+            margin-right: 5px;
+        }
+    }
+}
